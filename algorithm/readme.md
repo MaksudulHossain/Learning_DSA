@@ -141,8 +141,3 @@ The same process is applied recursively to the left and right subarrays until th
 - **Space complexity = O(log n)** on average, **O(n)** in worst case.  
 
 ---
-
-✅ **Key differences from Bubble Sort and Selection Sort**:  
-- Quick sort is usually **much faster** in practice (`O(n log n)` average vs `O(n²)`).  
-- But it can degrade to **O(n²)** without good pivot selection.  
-- Unlike Bubble/Selection, Quick Sort uses **divide-and-conquer recursion**.
