@@ -92,10 +92,6 @@ Selection sort always performs the same number of comparisons, regardless of whe
 
 ---
 
-✅ **Key difference from Bubble Sort**:  
-- Bubble sort may stop early if array is already sorted (**O(n)** best case with swap check).  
-- Selection sort **cannot stop early**; it always does **O(n²)** comparisons, even in best case.  
-
 # Quick Sort
 Quick sort is a **divide-and-conquer** sorting algorithm. It works by selecting a **pivot element** from the array and partitioning the array into two subarrays:
 - Elements **smaller than the pivot** go to the left.
